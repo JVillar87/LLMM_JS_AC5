@@ -59,7 +59,7 @@ let contadorElements = 0;
 btnCrear.addEventListener("click", crearElements);
 function crearElements() {
     let nouElement = document.createElement("li");
-    nouElement.value = "Aquest és l'element " + (contadorElements + 1) + " de la llista.";
+    nouElement.innerHTML= "Aquest és l'element " + (contadorElements + 1) + " de la llista.";
     llista.append(nouElement);
     contadorElements++;
 }
