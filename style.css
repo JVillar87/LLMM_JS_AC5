@@ -1,0 +1,93 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+#imatge {
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.panell-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    width: calc((90px * 3) + (10px * 2));
+}
+
+.box {
+    width: 90px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+.vermell {
+    background-color: red;
+}
+
+.blau {
+    background-color: blue;
+}
+
+.verd {
+    background-color: rgb(62, 189, 62);
+}
+
+.taronja {
+    background-color: orange;
+}
+
+.groc {
+    background-color: gold;
+}
+
+.lila {
+    background-color: purple;
+}
+
+#crear {
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+#llista {
+    list-style: none;
+    padding-left: 0;
+}
+
+#llista li {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
