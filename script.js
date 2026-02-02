@@ -60,6 +60,6 @@ btnCrear.addEventListener("click", crearElements);
 function crearElements() {
     let nouElement = document.createElement("li");
     nouElement.textContent = "Aquest és l'element " + (contadorElements + 1) + " de la llista.";
-    llista.appendChild(nouElement);
+    llista.append(nouElement);
     contadorElements++;
 }
